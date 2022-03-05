@@ -39,9 +39,11 @@ public class AppointmentController {
         return appointmentService.getAppointmentByHNI(id);
     }
 
-    @PutMapping("/edit")
+    @PutMapping("/edit/{id}")
     public String editAppointmentWM(@RequestBody appDTO a,@PathVariable Long id){
         return appointmentService.editAppointmentByHN(a,id);
     }
+
+
 
 }

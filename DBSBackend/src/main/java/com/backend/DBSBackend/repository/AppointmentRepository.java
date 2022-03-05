@@ -18,5 +18,4 @@ public interface AppointmentRepository extends JpaRepository<appointment,Long> {
     @Query(value = "select * from appointments where hni_id=:hnid",nativeQuery = true)
     List<appointment> findAllByhni_id(@PathVariable String hnid);
 
-
 }
