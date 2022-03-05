@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<title>
+Online Book order Form template Example
+</title>
+
+<style>
+body{
+width: 500px;
+margin: 0 auto;
+padding: 50px;
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+ div.elem-group{
+margin:10px 0;
+}
+div.elem-group.inlined{
+width:49%;
+display: inline-block;
+float: left;
+margin-left: 1%;
+}
+label{
+display: block;
+font-family: 'Nanum Gothic';
+padding-bottom: 8px;
+font-size: 1em;
+}
+input{
+border-radius: 2px;
+border: 2px solid rgb(17, 38, 230);
+box-sizing: border-box;
+font-size: 1em;
+font-family: "Nanum Gothic";
+width: 100%;
+padding: 10px;
+}
+select{
+border-radius: 2px;
+border: 2px solid #777;
+box-sizing: border-box;
+font-size: 1.25em;
+font-family: "Nanum Gothic";
+width: 100%;
+padding: 8px;
+}
+textarea{
+border-radius: 2px;
+border: 2px solid #777;
+box-sizing: border-box;
+font-size: 1em;
+font-family: "Nanum Gothic";
+width: 100%;
+padding: 8px;
+}
+div.elem-group.inlined input{
+width: 95%;
+display:inline-block;
+}
+h1 {
+position: relative;
+padding: 0;
+margin: 0;
+font-family: "Raleway", sans-serif;
+font-weight: 300;
+font-size: 40px;
+color: #080808;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+text-align: center;
+}
+textarea {
+height: 250px;
+}
+h2 {
+font-style: italic;
+font-family: "Playfair Display","Bookman",serif;
+color: rgb(231, 10, 10);
+letter-spacing: -0.005em;
+word-spacing: 1px;
+font-size: 1.75em;
+font-weight: bold;
+}
+hr {
+border: 1px dotted #ccc;
+}
+button {
+height: 50px;
+background: rgb(145, 9, 54);
+border: none;
+color: white;
+font-size: 1.25em;
+font-family: 'Nanum Gothic';
+border-radius: 4px;
+cursor: pointer;
+}
+button:hover {
+border: 2px solid black;
+}
+
+</style>
+</head>
+<boby>
+    <h2>fixing appointment</h2>
+
+<div class="container">
+    <label for="uname"><b>appointment id</b></label>
+    <input type="text" placeholder="Enter appointment id" name="uname" required>
+
+    <label for="date"><b>appointment date</b></label>
+    <input type="date" placeholder="select date" name="psw" required></div>
+  <br>
+     <label for="unname"><b>appointment place</b></label>
+    <select>
+        <option value="volvo">office</option>
+        <option value="saab">home</option>
+      </select>
+      </br>
+      <button onclick="document.location='submit.html'">submit</button>
+      <button onclick="documnet.location='new.html'">cancel</button>
+      
+</body>
+ </html>
+
